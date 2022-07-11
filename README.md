@@ -15,8 +15,10 @@ Note that the more an agent stays alive, the better fittness value it will earn.
 - The size of my NN is [8, 20, 2]. you can see the input values in "Think" method in player.py(Think of this method as the brain of our model! it actually effects the results alot). this input parameters define the important parameters that our model will consider to calculate the output(which is jumping left or right, thats why output layer has only 2 neurons)
 2) designing a good evoloutionary algorithm (see evolution.py). 
 - next population selection --> Rulette wheel, SUS and Q-tournoment are implemented. uncomment to see their results.
-- 
--
+- generating new population --> using cross-over and mutation(single point, 2 point and 3 point cross-over is implemented)
 
 ## Results
+
+Depending the number of generation passes, you can view the result of Neuroevolution algorithm using plot.py file. 
+remember you must delete the result directory before running the game to see the new result.
 <img width="633" alt="image" src="https://user-images.githubusercontent.com/72692826/178298609-f93f8df8-6d27-40df-917e-ff4ec804e1bc.png">
