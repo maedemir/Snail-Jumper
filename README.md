@@ -20,6 +20,6 @@ Note that the more an agent stays alive, the better fittness value it will earn.
 ## Results
 You can run this game using game.py file and see the results of Neuroevolution algorithm(Depending on the number of generation that passes) using plot.py.
 remember you must delete the result directory before running the game to see the new result.
-here is my results. hope you can improve them 🤓
+this is my result. hope you can improve them 🤓
 
 <img width="633" alt="image" src="https://user-images.githubusercontent.com/72692826/178298609-f93f8df8-6d27-40df-917e-ff4ec804e1bc.png">
