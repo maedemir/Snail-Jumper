@@ -11,8 +11,8 @@ The game is simple! a runner agent needs to jump over obstacls(snails and bugs) 
 Note that the more an agent stays alive, the better fittness value it will earn.
 ## Project steps
 1) designing a proper neural network
-- my NN is implemented in nn.py file. you can see that initialization of weights and biases is done in init method. feedforwarding function and activation function are also defined in this class. note that sigmoid activation function is used in hidden layer while softmax is used in output layer(feel free to change it✌🏻)
-- The size of my NN is [8, 20, 2]. you can see the input values in "Think" method in player.py. this input parameters define the important parameters that our model will consider to calculate the output(which is jumping left or right, thats why output layer has only 2 neurons)
+- my NN is implemented in nn.py file. you can see that initialization of weights and biases is done in init method. feedforwarding function and activation function are also defined in this class. note that sigmoid activation function is used in hidden layer while softmax is used in output layer(feel free to change it✌🏻). 
+- The size of my NN is [8, 20, 2]. you can see the input values in "Think" method in player.py(Think of this method as the brain of our model! it actually effects the results alot). this input parameters define the important parameters that our model will consider to calculate the output(which is jumping left or right, thats why output layer has only 2 neurons)
 2) designing a good evoloutionary algorithm
 
 ## Results
